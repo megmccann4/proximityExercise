@@ -8,6 +8,45 @@
 <link rel="stylesheet" href="style.css">
 <style>
 
+#wrapper{
+  border: 3px solid #52637B;
+  color:#FFFAF3;
+  background-color:#52637B;
+  text-align: center;
+  font-family: lora;
+}
+#wrapper h1{
+  font-size: 400%;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+}
+#nav {
+  background-color: #FFFAF3;
+  width: 300px;
+  margin: 0 auto;
+  box-sizing: padding-box;
+  float: left;
+  border-right: 6px solid #52637B;
+}
+#mainContent{
+  width: 600px;
+  margin: 0 auto;
+  box-sizing: padding-box;
+  float: left;
+}
+#mainContent img{
+  float: right;
+  padding-bottom: 2em;
+  padding-left: 1em;
+}
+#rightSidebar{
+  background-color: #FFFAF3;
+  width: 300px;
+  margin: 0 auto;
+  box-sizing: padding-box;
+  float: right;
+  border-left: 6px solid #52637B;
+}
 
 </style>
 </head>
@@ -27,7 +66,9 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
 	   <h1>The Wizard of Oz!</h1>
      Allegory for Bi-metalism? Who cares! It's in the Public Domain!
   </header>
-	<nav>
+</div>
+<div id="nav">
+  <nav>
 	<h2>Nav Sidebar</h2>
 	<p> Nav Sidebars are usually used for links and stuff like that. The breaks are a quick and dirty way to format. We'll learn better ways next week.</p>
 		<a href="http://en.wikipedia.org/wiki/Dorothy_Gale">Dorothy</a>
@@ -37,6 +78,7 @@ Use the float, padding, margin, and sizing skills you've practiced to replicate 
 		<a href="http://en.wikipedia.org/wiki/Bimetallism">Bimetallism</a>
 	</ul>
   </nav>
+</div>
 	<div id="mainContent">
   <h2>From The Wizard of Oz</h2>
 	<img src="dorothy.jpg" id="image1" alt="Dorothy"/><p>We've learned a lot about creating columns. Just look at this great three column display we've created. It looks as good as anything we might do with a template, and we've made it from scratch. Just a little CSS and some time, and it is all ready to go. Be extra careful to make sure you've established strong vertical lines on the page! This will make everything hold together much more neatly and create a strong sense of visual unity! It will probably take some fiddling and tweaking to get the lines exactly right. Don't forget that you can use the inspector tool to visualize lines and make sure elements are lining up the way you want them to!</p>

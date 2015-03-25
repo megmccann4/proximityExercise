@@ -1,0 +1,10 @@
+1. 350
+2. makes it skinnier- to 310
+3. creates 2 columns side by side to the right side of screen
+4. 2 columns side by side on the left size
+5. screen gets longer, columns still stay side by side
+6. switch positions and 1 goes to the far right side and 2 is far left side
+7. Div1 elongates
+8. They got wider but shorter
+9. they scale to size with the size of the window
+10.
