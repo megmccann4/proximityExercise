@@ -8,3 +8,10 @@
 8. They got wider but shorter
 9. they scale to size with the size of the window
 10.
+
+
+
+
+
+letter-spacing property
+margin: 0 auto;
